@@ -1,0 +1,33 @@
+# Ignorar archivos de configuración del entorno
+.env
+
+# Ignorar dependencias de node.js
+node_modules/
+
+# Ignorar archivos de compilación de Python
+__pycache__/
+*.pyc
+
+# Ignorar archivos de log
+*.log
+
+# Ignorar archivos de configuración específicos de IDE
+.vscode/
+.idea/
+
+# Ignorar binarios y archivos compilados
+*.o
+*.out
+*.exe
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar carpetas específicas
+build/
+dist/
+
+# Ignorar archivos de configuración personal
+*.local
+*.config
