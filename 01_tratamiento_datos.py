@@ -77,3 +77,4 @@ print(df.describe())
 
 # Muestra un resumen del DataFrame, incluyendo el número de entradas no nulas, tipos de datos de cada columna y uso de memoria
 print(df.info())
+
