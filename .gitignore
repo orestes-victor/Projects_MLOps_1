@@ -31,3 +31,11 @@ dist/
 # Ignorar archivos de configuración personal
 *.local
 *.config
+mlops1env/Lib/site-packages/altair-5.3.0.dist-info/licenses/LICENSE
+/mlops1env/Lib/site-packages/altair-5.3.0.dist-info
+/mlops1env/Lib/site-packages/altair
+/mlops1env/Lib/site-packages/attr
+/mlops1env/Lib/site-packages/attrs-23.2.0.dist-info
+/mlops1env/Lib/site-packages/attrs
+/mlops1env/Lib/site-packages
+/mlops1env
