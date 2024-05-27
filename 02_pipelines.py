@@ -12,6 +12,7 @@ def remove_ouliers_with_zscore(df, column, threshold = 2):
     return df 
 
 def map_column_values(df, column, mapping_dict):
+    #df[column] = df[column].apply(lambda value: mapping_dict.get(value.lower().strip(), np.nan) if value is not np.nan else np.nan)
     df[column] = df[column].apply(lambda value: mapping_dict.get(value, value))
     return df
 
